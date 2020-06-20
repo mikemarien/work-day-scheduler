@@ -1,5 +1,5 @@
 
-//Using moment.js documentation to add current date to jumbottron.
+//Using moment.js documentation to add current date to jumbotron.
 const m = moment();
 
 $("#currentDay").append(m.format("dddd, MMMM Do"));
